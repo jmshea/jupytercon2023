@@ -1,0 +1,158 @@
+[
+  {
+    "question": "What is Jupyter Notebook?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "A web-based interactive computing environment",
+        "correct": true
+      },
+      {
+        "answer": "A programming language",
+        "correct": false
+      },
+      {
+        "answer": "A database management system",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are the benefits of using Jupyter Notebook?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "It allows for easy data visualization and exploration",
+        "correct": true
+      },
+      {
+        "answer": "It supports multiple programming languages",
+        "correct": true
+      },
+      {
+        "answer": "It can be easily shared with others",
+        "correct": true
+      },
+      {
+        "answer": "It can run on any operating system",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "How do you create a new notebook in Jupyter Notebook?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "Click on the \"New\" button and select \"Notebook\"",
+        "correct": true
+      },
+      {
+        "answer": "Type \"jupyter notebook\" in the command line",
+        "correct": false
+      },
+      {
+        "answer": "Download a notebook template from the internet",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are the different types of cells in Jupyter Notebook?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Code cells",
+        "correct": true
+      },
+      {
+        "answer": "Markdown cells",
+        "correct": true
+      },
+      {
+        "answer": "Raw cells",
+        "correct": true
+      },
+      {
+        "answer": "Output cells",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "How can you import a dataset into Jupyter Notebook?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "Use the pandas library to read in the dataset",
+        "correct": true
+      },
+      {
+        "answer": "Copy and paste the dataset into a code cell",
+        "correct": false
+      },
+      {
+        "answer": "Use the \"import\" command in Jupyter Notebook",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of data visualization in data science?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "To explore and understand the data",
+        "correct": true
+      },
+      {
+        "answer": "To make the data look pretty",
+        "correct": false
+      },
+      {
+        "answer": "To hide important information in the data",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "How can you add comments to your code in Jupyter Notebook?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "Use the \"#\" symbol before the comment",
+        "correct": true
+      },
+      {
+        "answer": "Use the \"//\" symbol before the comment",
+        "correct": false
+      },
+      {
+        "answer": "Use the \"/* */\" symbols to surround the comment",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "How can you share your Jupyter Notebook with others?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Save the notebook as a file and send it to others",
+        "correct": true
+      },
+      {
+        "answer": "Use a cloud-based service like GitHub or Google Drive",
+        "correct": true
+      },
+      {
+        "answer": "Use the \"Share\" button in Jupyter Notebook to generate a link",
+        "correct": true
+      },
+      {
+        "answer": "Print out the notebook and give it to others",
+        "correct": false
+      }
+    ]
+  }
+]
