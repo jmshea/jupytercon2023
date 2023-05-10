@@ -14803,7 +14803,7 @@ div.jp-OutputPrompt {
 <h2 id="Pedagogical-Motivation">Pedagogical Motivation<a class="anchor-link" href="#Pedagogical-Motivation">&#182;</a></h2><ul>
 <li>Two educational tools have been shown to improve student learning and retention:</li>
 </ul>
-<center><img src="figs/tran-mau-tri-tam-tZnbakTUcTI-unsplash.jpg" style="width:40%;"></center>
+<!-- <center><img src="figs/tran-mau-tri-tam-tZnbakTUcTI-unsplash.jpg" style="width:40%;"></center> -->
 </div>
 </div>
 </div>
@@ -14819,7 +14819,9 @@ div.jp-OutputPrompt {
 <li>Allow students to try repeatedly, make mistance and learn from those mistakes</li>
 <li>Provide feedback to guide learning</li>
 </ul>
-<div style="width:60%;"><img src="figs/learning-to-ride.jpg"></div>
+<center>
+<div style="width:65%;"><img src="figs/learning-to-ride.jpg"></div>
+</center>
 </div>
 </div>
 </div>
@@ -14850,7 +14852,9 @@ div.jp-OutputPrompt {
 <li>Students review material repeatedly</li>
 <li>The spacing between the review sessions increases over time</li>
 </ul>
+<center>
 <div style="width:60%;"><img src="figs/3_Hourglasses_Wellcome_L0011331.jpg"></div>
+</center>
 </div>
 </div>
 </div>
@@ -14864,20 +14868,31 @@ div.jp-OutputPrompt {
 <h2 id="Motivation-from-the-Jupyter-Ecosystem">Motivation from the Jupyter Ecosystem<a class="anchor-link" href="#Motivation-from-the-Jupyter-Ecosystem">&#182;</a></h2><ul>
 <li>Jupyter provides environments for fusing explanatory, visual, and computational components</li>
 <li>Widgets enable students to interact with computational components</li>
-<li>But students also need tools for review and self-assessment to enhance learning</li>
 </ul>
 
 </div>
 </div>
 </div>
-</div></section></section><section><section>
+</div><div class="fragment">
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Issues-with-existing-tools:">Issues with existing tools:<a class="anchor-link" href="#Issues-with-existing-tools:">&#182;</a></h2><ul>
+<p><br><center><b>But students also need tools for review and self-assessment</b></center></p>
+
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Issues-with-Existing-Tools:">Issues with Existing Tools:<a class="anchor-link" href="#Issues-with-Existing-Tools:">&#182;</a></h2><ul>
 <li>Do not naturally integrate with Jupyter </li>
 <li>Often require sign ups, lock users into particular ecosystems</li>
 <li>Many don't support code, LaTeX (math typesetting), or images</li>
@@ -14895,7 +14910,7 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Issues-with-existing-tools:">Issues with existing tools:<a class="anchor-link" href="#Issues-with-existing-tools:">&#182;</a></h2><ul>
+<h2 id="Issues-with-Existing-Tools:">Issues with Existing Tools:<a class="anchor-link" href="#Issues-with-Existing-Tools:">&#182;</a></h2><ul>
 <li>tools are often unattractive ;-)</li>
 </ul>
 <p><img src="figs/cram-flashcards.gif" alt=""></p>
@@ -14938,7 +14953,9 @@ div.jp-OutputPrompt {
 <li>Often focused on summative assessment -&gt; assigning a score based on current knowledge</li>
 <li>Often do not provide for repeated attempts with immediate feedback to help guide students</li>
 </ul>
+<center>
 <div style="width:60%;align:center"><img src="figs/lc-answers.png"></div>
+</center>
 </div>
 </div>
 </div>
@@ -14952,8 +14969,24 @@ div.jp-OutputPrompt {
 <h2 id="Introduction-to-JupyterCards">Introduction to JupyterCards<a class="anchor-link" href="#Introduction-to-JupyterCards">&#182;</a></h2><ul>
 <li>Simple animated flashcards</li>
 <li>Called from Python, but uses Javascript "behind the scenes"</li>
-<li>Install via pip: <code>pip install jupytercards</code></li>
+<li><p>Install via pip:</p>
+<p><code>pip install jupytercards</code></p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Making-Cards-is-Easy">Making Cards is Easy<a class="anchor-link" href="#Making-Cards-is-Easy">&#182;</a></h2><ul>
 <li>Cards can be lists of dicts, JSON, or Markdown (experimental)</li>
+<li>Each card is a Python <code>dict</code> or JSON <code>object</code> with a "front" and a "back"</li>
 </ul>
 
 </div>
@@ -15061,6 +15094,26 @@ div.jp-OutputPrompt {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Demo-in-Jupyter-Lab">Demo in Jupyter Lab<a class="anchor-link" href="#Demo-in-Jupyter-Lab">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Other-Features">Other Features<a class="anchor-link" href="#Other-Features">&#182;</a></h1><ul>
+<li>Also supports many-choice questions</li>
+<li>Supports randomly sampling from question pools<ul>
+<li>useful for implementing <em>spaced repetition</em></li>
+<li>keeps review interesting and meaningful &mdash; when students revisit a notebook or Jupyter Book section, they can see new questions</li>
+</ul>
+</li>
+<li>Can dump student answers to a string that can be submitted for verification of completing the questions </li>
+</ul>
+
 </div>
 </div>
 </div>
