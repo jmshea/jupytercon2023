@@ -6,6 +6,10 @@ This is the site for my JupyterCon2023 presentation. Here are the links to the l
 
 [JupyterQuiz](https://github.com/jmshea/jupyterquiz/)
 
+See these tools in action in a Jupyter Book:
+
+[Foundations of Data Science with Python](https://jmshea.github.io/Foundations-of-Data-Science-with-Python/intro/intro.html)
+
 Here are the slides and the examples:
 
 [Slides](presentation.slides.html)
