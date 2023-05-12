@@ -3,7 +3,7 @@
 ![JupyterCon2023 Logo](figs/jupytercon.png)
 
 This is the site for my JupyterCon2023 presentation "Tools for Interactive Education Experiences in Jupyter Notebooks and Jupyter Books"
-* <a href="https://jmshea.github.io/jupytercon2023/" target="_blank">View the Slides</a> (opens new tab)
+* [View the Slides](https://jmshea.github.io/jupytercon2023/)
 * [Download the Examples](presentation-demo-exs.ipynb)
 
 Here are the libraries I am discussing:
