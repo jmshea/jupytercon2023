@@ -1,19 +1,19 @@
-# Slides and links for JupyerCon2023
+# JupyterCon 2023 Presentation "Tools for Interactive Education Experiences in Jupyter Notebooks and Jupyter Books"
 
-![Jupytercon2023 Logo](figs/jupytercon.png)
+![JupyterCon2023 Logo](figs/jupytercon.png)
 
-This is the site for my JupyterCon2023 presentation. Here are the links to the libraries I am discussing:
+This is the site for my JupyterCon2023 presentation "Tools for Interactive Education Experiences in Jupyter Notebooks and Jupyter Books"
+* [View the Slides](https://jmshea.github.io/jupytercon2023/)
+* [Download the Examples](presentation-demo-exs.ipynb)
 
-[JupyterCards](https://github.com/jmshea/jupytercards/)
+Here are the libraries I am discussing:
 
-[JupyterQuiz](https://github.com/jmshea/jupyterquiz/)
+[JupyterCards](https://github.com/jmshea/jupytercards/) library for interactive flashcards
+* Try it out: `pip install jupytercards`
+
+[JupyterQuiz](https://github.com/jmshea/jupyterquiz/) library for interactive quizzes
+* Try it out: `pip install jupyterquiz`
 
 See these tools in action in a Jupyter Book:
 
 [Foundations of Data Science with Python](https://jmshea.github.io/Foundations-of-Data-Science-with-Python/intro/intro.html)
-
-Here are the slides and the examples:
-
-[Slides](presentation.slides.html)
-
-[Demo](presentation-demo-ex.ipynb)
